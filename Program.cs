@@ -16,7 +16,7 @@ List<int> numbers = new List<int> {
 };
 for (int i = 0; i < numbers.Count - 1; i++)
 {
-    if (numbers[i] == i)
+    if (numbers.Contains(i))
     {
         Console.WriteLine($"Numbers list contains {i}");
     }
